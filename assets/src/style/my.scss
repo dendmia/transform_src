@@ -1,0 +1,77 @@
+body {
+	max-width: 1920px;
+}
+aside{
+	height: 490px;
+}
+
+.red-text {
+	color: #d12f22;
+}
+
+.white-text {
+	color: #f4f4f4;
+}
+
+.phone-number {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	min-width: 200px;
+}
+
+.external {
+	background-image: url(../img/external.jpg);
+	background-repeat: no-repeat;
+	height: 490px;
+	background-position: 0 0;
+}
+
+.tile {
+	text-shadow: 2px 2px 1px #000;
+	color: #fff;
+	padding: 10px;
+}
+.tile:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+
+.tile p,
+.tile h2 {
+}
+.bg-shadow{
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.balustrades {
+	background-image: url(../img/balustrades.jpg);
+	background-repeat: no-repeat;
+	height: 240px;
+	background-position: 0 0;
+}
+
+.doors-and-windows {
+	background-image: url(../img/doors-and-windows.jpg);
+	height: 240px;
+}
+.used-materials{
+	height: 240px;
+}
+.marketing {
+	background-image: url(../img/marketing.jpg);
+	background-repeat: no-repeat;
+	height: 490px;
+	background-position: 0 0;
+}
+.internal {
+	height: 240px;
+}
+.wrapper-blackout{
+	width: 100%;
+	height: 100%;
+}
+.wrapper-blackout:hover{
+	background-color: rgba(0, 0, 0, .6);
+}
