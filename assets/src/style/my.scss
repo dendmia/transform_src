@@ -1,7 +1,6 @@
 body {
 	max-width: 1920px;
-	background-color: #e0dccb;
-	//	font-family: 'Alice', serif;
+	background-color: #e0dccb; //	font-family: 'Alice', serif;
 	//	font-family: 'Prata', serif;
 	//	font-family: 'Alegreya SC', serif;
 	font-family: 'Ledger', serif;
@@ -23,17 +22,20 @@ header .city {
 	font-size: 21px;
 }
 
-header .street{
+header .street {
 	font-size: 21px;
 }
-header .email{
+
+header .email {
 	font-size: 16px;
 }
-header .adress{
+
+header .adress {
 	background-image: url(../img/iconRedContacts.png);
 	background-repeat: no-repeat;
 	background-position: 3px 5px;
 }
+
 aside {
 	height: 490px;
 }
@@ -88,8 +90,6 @@ aside {
 }
 
 
-.tile p,
-.tile h2 {}
 
 .bg-shadow {
 	background-color: rgba(0, 0, 0, .6);
@@ -129,4 +129,42 @@ aside {
 
 .wrapper-blackout:hover {
 	background-color: rgba(0, 0, 0, .6);
+}
+
+//---------------------------------PAGE EXTERNAL-FINISH---------------------------------
+.cards{
+	min-height: 150px;
+}
+
+
+.card-1 {
+	background-image: url(../img/external_finish/2018-01-14_16-07-53.png);
+}
+
+.card-2 {
+	background-image: url(../img/external_finish/2018-01-14_16-09-51.png);
+}
+
+.card-3 {
+	background-image: url(../img/external_finish/2018-01-14_16-10-49.png);
+}
+
+.card-4 {
+	background-image: url(../img/external_finish/2018-01-14_16-11-33.png);
+}
+
+.card-5 {
+	background-image: url(../img/external_finish/2018-01-14_16-29-31.png);
+}
+
+.card-6 {
+	background-image: url(../img/external_finish/2018-01-14_16-30-43.png);
+}
+
+.card-7 {
+	background-image: url(../img/external_finish/2018-01-14_16-31-15.png);
+}
+
+.card-8 {
+	background-image: url(../img/external_finish/2018-01-14_16-32-07.png);
 }
