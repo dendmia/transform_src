@@ -1,0 +1,6 @@
+$ cat .gitignore
+/assets/build/
+/assets/src/bower_components/
+/node_modules/
+/assets/src/img/
+/.bowerrc

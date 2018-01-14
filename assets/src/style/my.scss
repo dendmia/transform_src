@@ -1,22 +1,45 @@
 body {
 	max-width: 1920px;
 	background-color: #e0dccb;
-//	font-family: 'Alice', serif;
-//	font-family: 'Prata', serif;
-//	font-family: 'Alegreya SC', serif;
+	//	font-family: 'Alice', serif;
+	//	font-family: 'Prata', serif;
+	//	font-family: 'Alegreya SC', serif;
 	font-family: 'Ledger', serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 .container-fluid {
 	background-image: url(../img/bg-img.png);
 }
 
+header .city {
+	font-size: 21px;
+}
+
+header .street{
+	font-size: 21px;
+}
+header .email{
+	font-size: 16px;
+}
+header .adress{
+	background-image: url(../img/iconRedContacts.png);
+	background-repeat: no-repeat;
+	background-position: 3px 5px;
+}
 aside {
 	height: 490px;
 }
 
 .red-text {
-	color: #d12f22;
+	color: #f44032;
 }
 
 .block-bg-color {
@@ -24,13 +47,19 @@ aside {
 }
 
 .logo-img {
-	max-height: 130px;
-	margin-top: -16px;
-	margin-bottom: -14px;
+	width: 230px;
+	height: 180px;
+	margin-top: -7px;
+	margin-bottom: -24px;
+}
+
+.nav-item {
+	font-size: 19px;
+	text-align: center;
 }
 
 .white-text {
-	color: #f4f4f4;
+	color: #e8e4e4;
 }
 
 .phone-number {
@@ -54,7 +83,7 @@ aside {
 }
 
 .tile:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #fff;
 }
 
