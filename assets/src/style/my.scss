@@ -73,57 +73,43 @@ aside {
 	min-width: 200px;
 }
 
-.external {
+.card-01 {
 	background-image: url(../img/external.jpg);
 	background-repeat: no-repeat;
 	height: 490px;
 	background-position: 0 0;
 }
 
-.tile {
-	text-shadow: 2px 2px 1px #000;
-	color: #fff;
-	padding: 10px;
-}
-
-.tile:hover {
-	text-decoration: none;
-	color: #fff;
-}
-
-
-
-.bg-shadow {
-	background-color: rgba(0, 0, 0, .6);
-}
-
-.balustrades {
+.card-02 {
 	background-image: url(../img/balustrades.jpg);
 	background-repeat: no-repeat;
 	height: 240px;
 	background-position: 0 0;
 }
 
-.doors-and-windows {
+.card-03 {
+	height: 240px;
+}
+
+.card-04 {
+	height: 240px;
+}
+
+.card-05 {
+
 	background-image: url(../img/doors-and-windows.jpg);
 	height: 240px;
 }
 
-.used-materials {
-	height: 240px;
-}
-
-.marketing {
+.card-06 {
 	background-image: url(../img/marketing.jpg);
 	background-repeat: no-repeat;
 	height: 490px;
 	background-position: 0 0;
 }
 
-.internal {
-	height: 240px;
-}
 
+//------------------------------------------------------ОФОРМЛЕНИЕ ОСНОВНЫХ БЛОКОВ-ССЫЛОК------------------------------------------------------------------------
 .wrapper-blackout {
 	width: 100%;
 	height: 100%;
@@ -133,4 +119,17 @@ aside {
 	background-color: rgba(0, 0, 0, .6);
 }
 
-//---------------------------------PAGE EXTERNAL-FINISH---------------------------------
+.wrapper-blackout > * {
+	text-shadow: 2px 2px 1px #000;
+	color: #fff;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.wrapper-blackout > *:hover {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
