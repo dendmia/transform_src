@@ -37,6 +37,10 @@ header .adress {
 	background-repeat: no-repeat;
 	background-position: 3px 5px;
 }
+header .phnumbers{
+	font-weight: bold;
+	font-size: 18px;
+}
 
 .red-text {
 	color: #f44032;
@@ -80,8 +84,9 @@ header .adress {
 .card-02 {
 	background-image: url(../img/balustrades.jpg);
 	background-repeat: no-repeat;
-	height: 240px;
 	background-position: 0 0;
+	height: 240px;
+
 }
 
 .card-03 {
@@ -89,6 +94,9 @@ header .adress {
 }
 
 .card-04 {
+	background-image: url(../img/internal-01.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 	height: 240px;
 }
 
