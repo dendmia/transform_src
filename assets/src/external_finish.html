@@ -11,7 +11,9 @@
 <body>
 	<div class="container-fluid">
 		//= template/header.html
-		<main>
+		<section class="row">
+			<div class="col-12 col-md-9">
+<main>
 			<section class="content-ex">
 				<h1>Элементы внешней отделки зданий</h1>
 				<p>Одно из важнейших направлений деятельности нашей компании — изготовление декоративных элементов из пенополистирола, которые впоследствии находят успешное применение для художественного оформления экстерьеров и ландшафтов зданий всевозможных архитектурных вековых традиций.</p>
@@ -124,9 +126,16 @@
 				</div>
 			</div>
 		</main>
+			</div>
+			<div class="d-none d-md-block col-md-3">
+				//= template/aside.html
+			</div>
+		</section>
 		//= template/footer.html
 	</div>
 	<script src="js/main.js"></script>
 </body>
 
 </html>
+
+
