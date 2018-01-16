@@ -1,8 +1,3 @@
-$mainColor: rgba(25, 22, 22, 0.6);
-$secondColor: #ef2e26;
-$textColor: #fff;
-$secTextColor: #000;
-
 .text-color {
 	color: $textColor;
 }
@@ -63,6 +58,7 @@ header .phnumbers {
 
 .block-bg-color {
 	background-color: $mainColor;
+	border-radius: 3px;
 }
 
 .logo-img {
@@ -73,7 +69,7 @@ header .phnumbers {
 }
 
 .nav-item {
-	font-size: 19px;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -209,17 +205,41 @@ header .phnumbers {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-footer .instagram{
+
+footer .instagram {
 	margin: 5px;
 	width: 90px;
 	height: 90px;
 	background-image: url(../img/icons/3-social-network-logo-collection.png);
 	background-position: 260px 450px;
 }
-footer .vk{
+
+footer .vk {
 	margin: 5px;
 	width: 90px;
 	height: 90px;
 	background-image: url(../img/icons/3-social-network-logo-collection.png);
 	background-position: 260px 290px;
 }
+footer .footer-nav{
+	margin: 25px;
+}
+
+footer .footer-nav-item {
+	display: inline-block;
+	border: solid;
+	border-color: $textColor;
+	border-radius: 5px;
+	border-width: 1px;
+	min-width: 120px;
+	color: $textColor;
+	font-size: 20px;
+	padding: 10px;
+	margin: 1px;
+	text-align: center;
+}
+
+footer .footer-nav-item:hover {
+	background-color: $mainColor;
+}
+
