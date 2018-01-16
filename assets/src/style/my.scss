@@ -1,9 +1,20 @@
+
+$mainColor: rgba(253, 253, 253, 0.5);
+$secondColor: #7c6227;
+$textColor: #312c2c;
+$secTextColor: #000;
+
+.text-color{
+ 	color: $textColor;
+}
+
 body {
 	max-width: 1920px;
 	background-color: #e0dccb; //	font-family: 'Alice', serif;
 	//	font-family: 'Prata', serif;
 	//	font-family: 'Alegreya SC', serif;
 	font-family: 'Ledger', serif;
+	color: $secTextColor;
 }
 
 a {
@@ -42,12 +53,15 @@ header .phnumbers{
 	font-size: 18px;
 }
 
-.red-text {
-	color: #f44032;
+.sec-text {
+	color: $secondColor;
+}
+.sec-bg {
+	background: $secondColor;
 }
 
 .block-bg-color {
-	background-color: rgba(0, 0, 0, .5);
+	background-color: $mainColor;
 }
 
 .logo-img {
@@ -63,7 +77,7 @@ header .phnumbers{
 }
 
 .white-text {
-	color: #e8e4e4;
+	color: $textColor;
 }
 
 .phone-number {
@@ -122,19 +136,18 @@ header .phnumbers{
 }
 
 .wrapper-blackout:hover {
-	background-color: rgba(0, 0, 0, .6);
+	background-color: $mainColor;
 }
 
 .wrapper-blackout > * {
-	text-shadow: 2px 2px 1px #000;
-	color: #fff;
+	color: $textColor;
 	padding: 10px;
-	background-color: rgba(0, 0, 0, .6);
+	background-color: $mainColor;
 }
 
 .wrapper-blackout > *:hover {
 	text-decoration: none;
-	color: #fff;
+	color: $textColor;
 
 }
 
@@ -185,7 +198,7 @@ header .phnumbers{
 	height: 170px;
 	margin-bottom: 15px;
 	border-style: solid;
-	border-color: #676262;
+	border-color: $mainColor;
 }
 
 .content-ex {
