@@ -22,7 +22,7 @@ a:hover {
 }
 
 .container-fluid {
-	background-image: url(../img/bg-img.png);
+	background-image: url(../img/bg-img2.png);
 }
 
 header .city {
@@ -62,7 +62,6 @@ header .phnumbers {
 }
 
 .logo-img {
-	width: 230px;
 	height: 180px;
 	margin-top: -7px;
 	margin-bottom: -24px;
@@ -133,6 +132,7 @@ header .phnumbers {
 .wrapper-blackout {
 	width: 100%;
 	height: 100%;
+	box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.5);
 }
 
 .wrapper-blackout:hover {
@@ -221,7 +221,8 @@ footer .vk {
 	background-image: url(../img/icons/3-social-network-logo-collection.png);
 	background-position: 260px 290px;
 }
-footer .footer-nav{
+
+footer .footer-nav {
 	margin: 25px;
 }
 
@@ -231,15 +232,14 @@ footer .footer-nav-item {
 	border-color: $textColor;
 	border-radius: 5px;
 	border-width: 1px;
-	min-width: 120px;
+	min-width: 140px;
 	color: $textColor;
 	font-size: 20px;
 	padding: 10px;
-	margin: 1px;
+	margin: 5px;
 	text-align: center;
 }
 
 footer .footer-nav-item:hover {
 	background-color: $mainColor;
 }
-
