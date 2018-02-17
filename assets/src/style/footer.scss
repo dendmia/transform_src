@@ -1,0 +1,37 @@
+footer .instagram {
+	margin: 5px;
+	width: 90px;
+	height: 90px;
+	background-image: url(../img/icons/3-social-network-logo-collection.png);
+	background-position: 260px 450px;
+}
+
+footer .vk {
+	margin: 5px;
+	width: 90px;
+	height: 90px;
+	background-image: url(../img/icons/3-social-network-logo-collection.png);
+	background-position: 260px 290px;
+}
+
+footer .footer-nav {
+	margin: 25px;
+}
+
+footer .footer-nav-item {
+	display: inline-block;
+	border: solid;
+	border-color: $textColor;
+	border-radius: 5px;
+	border-width: 1px;
+	min-width: 140px;
+	color: $textColor;
+	font-size: 1.3em;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+footer .footer-nav-item:hover {
+	background-color: $mainColor;
+}

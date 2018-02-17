@@ -1,0 +1,33 @@
+header .city {
+	font-size: 1.3em;
+}
+
+header .street {
+	font-size: 1.3em;
+}
+
+header .email {
+	font-size: 1em;
+}
+
+header .adress {
+	background-image: url(../img/iconRedContacts.png);
+	background-repeat: no-repeat;
+	background-position: 3px 5px;
+}
+
+header .phnumbers {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.logo-img {
+	height: 180px;
+	margin-top: -7px;
+	margin-bottom: -24px;
+}
+.phone-number {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: inline-block;
+	min-width: 200px;
+}
