@@ -4,3 +4,4 @@ $ cat .gitignore
 /node_modules/
 /assets/src/img/
 /.bowerrc
+/images_from_roma/

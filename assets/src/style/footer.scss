@@ -1,24 +1,32 @@
-footer .instagram {
+
+.footer {
+	margin-top: 1rem;
+	background-color: $mainColor;
+	border-radius: 3px;
+}
+
+.footer__instagram {
 	margin: 5px;
 	width: 90px;
 	height: 90px;
 	background-image: url(../img/icons/3-social-network-logo-collection.png);
 	background-position: 260px 450px;
+	display: inline-block;
 }
 
-footer .vk {
+.footer__vk {
 	margin: 5px;
 	width: 90px;
 	height: 90px;
 	background-image: url(../img/icons/3-social-network-logo-collection.png);
 	background-position: 260px 290px;
+	display: inline-block;
 }
 
-footer .footer-nav {
+.footer__nav {
 	margin: 25px;
 }
-
-footer .footer-nav-item {
+.footer__nav-item {
 	display: inline-block;
 	border: solid;
 	border-color: $textColor;
@@ -32,6 +40,6 @@ footer .footer-nav-item {
 	text-align: center;
 }
 
-footer .footer-nav-item:hover {
+.footer__nav-item:hover {
 	background-color: $mainColor;
 }
