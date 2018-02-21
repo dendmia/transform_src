@@ -20,6 +20,7 @@
 .header__phnumbers {
 	font-weight: bold;
 	font-size: 1.2em;
+	text-align: center;
 }
 
 .header__logo {
@@ -28,3 +29,7 @@
 	margin-bottom: -24px;
 }
 
+.header--leftblock {
+	margin: auto;
+	max-width: 350px;
+}

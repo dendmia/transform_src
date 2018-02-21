@@ -3,6 +3,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0 0;
+	
 }
 
 .wrapper-blackout {
@@ -18,6 +19,24 @@
 }
 
 .wrapper-blackout > * {
+	color: $textColor;
+	padding: 10px;
+	background-color: $BgForText;
+}
+
+.card__wrapper {
+	width: 100%;
+	height: 100%;
+	box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.5);
+}
+
+.card__wrapper:hover {
+	background-color: $mainColor;
+	text-decoration: none;
+	color: $textColor;
+}
+
+.card__wrapper > * {
 	color: $textColor;
 	padding: 10px;
 	background-color: $BgForText;
