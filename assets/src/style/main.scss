@@ -27,9 +27,15 @@
  
 // Подключение своих SCSS файлов
 @import "my";
+@import "fonts";
 @import "header";
 @import "nav";
 @import "card";
 @import "footer";
 @import "card-ex";
-@import "aside"
+@import "aside";
+
+@import "contacts_and_map";
+@import "external_finished";
+@import "internal-finished";
+@import "about_us";
