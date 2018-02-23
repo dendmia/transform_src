@@ -5,3 +5,4 @@ $ cat .gitignore
 /assets/src/img/
 /.bowerrc
 /images_from_roma/
+/transform-p_semantic_core.xlsx
