@@ -1,0 +1,17 @@
+User-Agent: Yandex
+Host: https://transform-p.ru
+Disallow: /pdf/
+Disallow: /.well-known/
+Disallow: /.ftpquota
+
+User-Agent: Googlebot
+Disallow: /pdf/
+Disallow: /.well-known/
+Disallow: /.ftpquota
+
+User-Agent: *
+Disallow: /pdf/
+Disallow: /.well-known/
+Disallow: /.ftpquota
+
+sitemap: https://transform-p.ru/sitemap.xml
