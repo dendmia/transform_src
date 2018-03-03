@@ -3,15 +3,20 @@ Host: https://transform-p.ru
 Disallow: /pdf/
 Disallow: /.well-known/
 Disallow: /.ftpquota
+Disallow: /index
 
 User-Agent: Googlebot
 Disallow: /pdf/
 Disallow: /.well-known/
 Disallow: /.ftpquota
+Disallow: /index
+
 
 User-Agent: *
 Disallow: /pdf/
 Disallow: /.well-known/
 Disallow: /.ftpquota
+Disallow: /index
+
 
 sitemap: https://transform-p.ru/sitemap.xml
